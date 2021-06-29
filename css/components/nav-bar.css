@@ -19,7 +19,7 @@
 
 .nav__list {
 	box-sizing: border-box;
-	margin-top: 10px;
+
 	display: flex;
 	color: white;
 	justify-content: space-between;
