@@ -13,7 +13,7 @@
 	font-size: 32px;
 	top: 0;
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 750px) {
 	#no-mobile {
 		display: none;
 	}
