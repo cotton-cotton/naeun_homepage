@@ -3,7 +3,8 @@
 .main-screen {
 	position: relative;
 	display: flex;
-	justify-self: center;
+	justify-content: center;
+	align-items: center;
 	min-height: 100vh;
 	background: black;
 	overflow: hidden;
@@ -16,18 +17,17 @@
 
 	background: linear-gradient(#f5cae8, #e01e63);
 	border-radius: 50%;
-	transform: translate(400px, 50px);
+	transform: translate(-300px, -250px);
 }
 .main-screen::after {
 	content: "";
 	position: absolute;
 	width: 400px;
 	height: 400px;
-	left: 500px;
-	top: 300px;
+
 	background: linear-gradient(#8cb1f5, #4aeeaa);
 	border-radius: 50%;
-	transform: translate(400px, 80px);
+	transform: translate(300px, 150px);
 }
 .box {
 	position: relative;
@@ -47,8 +47,7 @@
 	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 	backdrop-filter: blur(25px);
 	border-radius: 10px;
-	left: 550px;
-	margin-bottom: 180px;
+
 	display: flex;
 	justify-content: center;
 	align-items: center;
